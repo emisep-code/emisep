@@ -12,8 +12,8 @@ body {
     font-style: italic;
     color: MidnightBlue;
     margin: 0;
-    background-color: DarkSlateGray;
     background-image: var(--body-bg-image);
+    background-color: DarkSlateGray;
 }
 
 #container {
