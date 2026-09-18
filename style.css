@@ -13,7 +13,8 @@ body {
     color: MidnightBlue;
     margin: 0;
     background-image: var(--body-bg-image);
-    bbackground-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: DarkSlateGray;
 }
 
