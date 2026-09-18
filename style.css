@@ -7,6 +7,17 @@
     box-sizing: border-box;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.container: {
+  grid-template-areas: 
+	'header'
+    'section'
+    'aside'
+    'footer'
+	}
+}
+
 body {
     font-family: Georgia, serif;
     font-style: italic;
@@ -38,6 +49,7 @@ body {
 }
 
 header { 
+    grid-area: header;
     height: auto;
     background-image: var(--header-image);
     background-repeat: no-repeat;
@@ -46,12 +58,14 @@ header {
 }
 
 section {
+    grid-area: section;
     height: 400px;
     background-color: LightSeaGreen;
     padding: 20px;
 }
 
 aside {
+    grid-area: aside;
     height: 400px;
     width: 200px;
     padding: 20px;
@@ -59,6 +73,7 @@ aside {
 }
 
 footer {
+    grid-area: footer;
     background-color: LightSeaGreen;
     width: 100px;
     height: 40px;
@@ -76,14 +91,3 @@ footer {
     margin-bottom:30px;
 }
 
-@media only screen and (max-width: 800px) {
-    #flex {
-    flex-wrap: wrap;
-}
-    aside {
-    width: 100%;
-    order: 2;
-}
-    section {
-    order: 1;
-}
