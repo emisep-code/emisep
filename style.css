@@ -9,13 +9,26 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-.container: {
+.container {
   grid-template-areas: 
-		'header'
-    'section'
-    'aside'
-    'footer'
+		"header"
+    "section"
+    "aside"
+    "footer"
 	}
+}
+
+@media only screen and (min-width: 600px)
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "aside section section"
+    "footer footer footer";
+    gap: 20px;
+    justify-content: center;
 }
 
 body {
@@ -28,23 +41,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: DarkSlateGray;
-}
-
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-areas:
-    'header header header'
-    'aside section section'
-    'footer footer footer';
-    gap: 20px;
-    justify-content: center;
-}
-
-#container a {
-    color: LimeGreen;
-    font-weight: bold;
 }
 
 header { 
