@@ -64,7 +64,7 @@ text-align: center;
 }
 
 .outline {
-	outline-style: groove;
+	outline-style: ridge;
     outline-width: thick;
 	outline-color: DarkTurquoise;
 	border-radius: 10px;
