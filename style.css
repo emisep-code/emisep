@@ -51,6 +51,8 @@ aside {
     display: flex;
     order: 1;
     height: 400px;
+    width: 200px;
+    padding: 20px;
     background-color: LightSeaGreen;
 }
 
@@ -59,7 +61,7 @@ footer {
     background-color: LightSeaGreen;
     width: 100px;
     height: 40px;
-    padding: 10px;
+    padding: 20px;
     margin: 0 auto;
 	text-align: center;
 }
@@ -73,26 +75,12 @@ footer {
     margin-bottom:20px;
 }
 
-h1 {
+span {
 	display: flex;
-    text-align: right;
-}
+    flex-direction: column;
+    flex-wrap: wrap;
+    }    
 
-h2 {
-	display: flex;
-    text-align: center;
-}
-
-h3 {
-	display: flex;
-    text-align: right;
-    
-}
-
-h4  {
-	display: flex;
-    text-align: right;
-    }
 @media only screen and (max-width: 800px) {
     #flex {
     flex-wrap: wrap;
