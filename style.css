@@ -1,6 +1,6 @@
 :root {
                 --header-image: url('');
-                --body-bg-image: url('');
+                --body-bg-image: url('img/lo-res/bg-environments.GIF');
 }
 
 * {
@@ -60,6 +60,13 @@ footer {
     height: 40px;
     padding: 10px;
 text-align: center;
+}
+
+.outline {
+	outline-style: groove;
+    outline-width: thick;
+	outline-color: DarkTurquoise;
+	border-radius: 10px;
 }
 
 @media only screen and (max-width: 800px) {
