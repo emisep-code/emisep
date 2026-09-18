@@ -74,23 +74,23 @@ footer {
 }
 
 h1 {
-	display: block;
+	display: flex;
     text-align: right;
 }
 
 h2 {
-	display: block;
+	display: flex;
     text-align: center;
 }
 
 h3 {
-	display: block;
+	display: flex;
     text-align: right;
     
 }
 
 h4  {
-	display: block;
+	display: flex;
     text-align: right;
     }
 @media only screen and (max-width: 800px) {
