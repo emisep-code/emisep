@@ -13,6 +13,7 @@ body {
     color: MidnightBlue;
     margin: 0;
     background-image: var(--body-bg-image);
+    bbackground-repeat: no-repeat;
     background-color: DarkSlateGray;
 }
 
@@ -75,7 +76,7 @@ h1 {
 }
 
 h2 {
-	display: inline-block;
+	display: block;
 }
 
 h3 {
