@@ -17,11 +17,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: DarkSlateGray;
+    display: grid;
 }
 
-#container {
+.container {
     max-width: 900px;
     margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'aside section section'
+    'footer footer footer';
+    gap: 20px;
+    justify-content: center;
 }
 
 #container a {
@@ -30,7 +38,6 @@ body {
 }
 
 header { 
-    display: flex;
     height: auto;
     background-image: var(--header-image);
     background-repeat: no-repeat;
@@ -39,17 +46,12 @@ header {
 }
 
 section {
-    display: flex;
     height: 400px;
     background-color: LightSeaGreen;
-    flex: 1;
     padding: 20px;
-    order: 2;
 }
 
 aside {
-    display: flex;
-    order: 1;
     height: 400px;
     width: 200px;
     padding: 20px;
@@ -57,7 +59,6 @@ aside {
 }
 
 footer {
-    display: flex;
     background-color: LightSeaGreen;
     width: 100px;
     height: 40px;
@@ -71,15 +72,9 @@ footer {
     outline-width: thick;
 	outline-color: DarkTurquoise;
 	border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom:20px;
+    margin-top: 30px;
+    margin-bottom:30px;
 }
-
-span {
-	display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    }    
 
 @media only screen and (max-width: 800px) {
     #flex {
