@@ -1,6 +1,6 @@
 :root {
                 --header-image: url('');
-                --body-bg-image: url('img/lo-res/bg-environments.GIF');
+                --body-bg-image: url('img/lo-res/bg-chess.gif');
 }
 
 * {
@@ -30,9 +30,8 @@ body {
 }
 
 header { 
-    margin-top: 10px; 
-    margin-bottom: 10px;
-    height: 100px;
+    display: flex;
+    height: auto;
     background-image: var(--header-image);
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,13 +48,14 @@ section {
 }
 
 aside {
+    display: flex;
     order: 1;
     height: 400px;
     background-color: LightSeaGreen;
 }
 
 footer {
-    margin-top: 10px;
+    display: flex;
     background-color: LightSeaGreen;
     width: 100px;
     height: 40px;
@@ -69,10 +69,12 @@ footer {
     outline-width: thick;
 	outline-color: DarkTurquoise;
 	border-radius: 10px;
+    margin: 10px;
 }
 
 h1 {
 	display: block;
+    text-align: right;
 }
 
 h2 {
@@ -81,13 +83,13 @@ h2 {
 }
 
 h3 {
-	display: inline-block;
+	display: block;
     text-align: right;
     
 }
 
 h4  {
-	display: inline-block;
+	display: block;
     text-align: right;
     }
 @media only screen and (max-width: 800px) {
