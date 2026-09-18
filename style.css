@@ -13,6 +13,7 @@ body {
     color: MidnightBlue;
     margin: 0;
     background-color: DarkSlateGray;
+    background-image: var(--body-bg-image);
 }
 
 #container {
@@ -28,7 +29,7 @@ body {
 header { 
     margin-bottom: 10px; height: 100px;
     background-size: 65px;
-    background-image: var(--body-bg-image);
+    background-image: var(--header-image);
 }
 
 #header {
