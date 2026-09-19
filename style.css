@@ -18,7 +18,7 @@
 	}
 }
 
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 600px) {
 .container {
     margin: 20px 80px 20px 80px;
     display: grid;
@@ -28,6 +28,14 @@
     "footer footer footer";
     gap: 20px;
     justify-content: center;
+	}
+}
+
+#innercontainer {
+	grid-template-areas:
+  "title1 title2 title3 title4"
+  "a b c d"
+  "e f g h"; 
 }
 
 body {
