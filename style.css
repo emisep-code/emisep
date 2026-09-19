@@ -32,7 +32,14 @@
 	}
 }
 
-#innercontainer {
+#headergrid {
+  display: grid;
+  grid-template-areas:
+  		"header1 header2 header3";
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+
+#innergrid {
   display: grid;
 	grid-template-areas:
   "title1 title2 title3 title4"; 
