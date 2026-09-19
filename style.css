@@ -61,6 +61,7 @@ body {
     font-style: italic;
     word-wrap: normal;
     color: MidnightBlue;
+    text-align: center;
     padding: 10px 30px;
     margin: 0;
     background-image: var(--body-bg-image);
