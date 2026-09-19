@@ -27,13 +27,16 @@
     "aside section section"
     "footer footer footer";
     gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
 	}
 }
 
 #innercontainer {
+  display: grid;
 	grid-template-areas:
   "title1 title2 title3 title4"; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 body {
