@@ -33,9 +33,7 @@
 
 #innercontainer {
 	grid-template-areas:
-  "title1 title2 title3 title4"
-  "a b c d"
-  "e f g h"; 
+  "title1 title2 title3 title4"; 
 }
 
 body {
